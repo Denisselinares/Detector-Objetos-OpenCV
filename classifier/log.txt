@@ -1,0 +1,17 @@
+**************************************************
+*************** CREATING SAMPLES *****************
+**************************************************
+Object : C:/Users/medin/OneDrive/Imágenes/Datos adjuntos/Escritorio/Detector de objeto
+Fixing file names in negative images folder.
+Fixing file names in positive images folder.
+Creating negative list C:/Users/medin/OneDrive/Imágenes/Datos adjuntos/Escritorio/Detector de objeto/neg.lst
+Creating positive list C:/Users/medin/OneDrive/Imágenes/Datos adjuntos/Escritorio/Detector de objeto/pos.lst
+Running : opencv_createsamples
+OpenCV Error: Assertion failed (ssize.width > 0 && ssize.height > 0) in cv::resize, file D:\cv\opencv_3.2.0\sources_withTextModule\modules\imgproc\src\imgwarp.cpp, line 3492
+
+**************************************************
+************* TRAINING CLASSIFIER ****************
+**************************************************
+Running : opencv_traincascade
+OpenCV Error: Parsing error (wrong file format for C:\Users\medin\OneDrive\Im�genes\Datos adjuntos\Escritorio\Detector de objeto\pos_samples.vec
+) in CvCascadeImageReader::PosReader::create, file D:\cv\opencv_3.2.0\sources_withTextModule\apps\traincascade\imagestorage.cpp, line 141
